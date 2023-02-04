@@ -1,0 +1,40 @@
+<html>
+
+<head>
+  <title>
+    Classificador
+  </title>
+</head>
+
+<body>
+
+  <h1 style="color: #750996;">CLASSIFICADOR</h1>
+ 
+
+
+  <input type="text" id="campoNomeJogador" placeholder="Quem vai jogar?" />
+  <button class="efeito efeito-1" onClick="criarJogador()">Adicionar novo jogador</button>
+<h1></h1>
+  <table style="width:100%">
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Vitórias</th>
+        <th>Empates</th>
+        <th>Derrotas</th>
+        <th>Pontos</th>
+        <th colspan="5">Ações</th>
+      </tr>
+    </thead>
+    <tbody id="tabelaJogadores">
+
+    </tbody>
+  </table>
+  <h1></h1>
+  <button style="color: red;" onClick="apagarJogadores()">Apagar todos os jogadores</button>
+  <h1></h1>
+  <img  src= "./assets/jogo.svg" alt="" />
+</body>
+<script src="./index.js"></script>
+<link rel="stylesheet" href="style.css">
+</html>
