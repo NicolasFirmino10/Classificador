@@ -1,0 +1,104 @@
+@keyframes bounce {
+    0%, 20%, 60%, 100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+    40% {
+      -webkit-transform: translateY(-20px);
+      transform: translateY(-20px);
+    }
+    80% {
+      -webkit-transform: translateY(-10px);
+      transform: translateY(-10px);
+    }
+  }
+  
+  
+  
+  * {
+    text-align: center;
+  }
+  
+  body {
+    font-family: "Roboto Mono", monospace;
+    min-height: 400px;
+    background-color: #000000;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  table {
+    border: 2px solid #750996;
+    border-collapse: collapse;
+  }
+  
+  h1 {
+    color: white;
+  }
+  
+  th,
+  tr,
+  td {
+    border: solid 3px #750996;
+    color: white;
+  }
+  
+  button {
+    background-color: #002351;
+    color: #f6f6f6;
+  }
+  p{
+    color: aliceblue;
+   
+  }
+  h2{
+    border: solid red;
+  
+  }
+  .efeito {
+    background: #750996;
+    border: none;
+    transition: all 400ms ease;
+    padding: 4px;
+    margin: 10px;
+    font-size: 15px;
+    line-height: 20px;
+    border-radius: 7px;
+    cursor: pointer;
+    box-sizing: border-box;
+     } 
+     .efeito-1:hover {
+      animation: bounce 1s;
+     
+       }
+       #campoNomeJogador{
+        width: 13%;
+       }
